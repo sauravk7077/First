@@ -1,4 +1,4 @@
-#This stops a loop in between using break
+#This stops a loop in between using 'break'
 k = 5
 for j in range(100,50,-1):
     if j % k is 0:
@@ -14,7 +14,7 @@ for j in range(100,50,-1):
     comment
 '''
 
-#This skips the divisible numbers and prints others
+#This skips the divisible numbers and prints others using 'continue'
 k = 7
 for r in range(1,100):
     if r%k is 0:
