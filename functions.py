@@ -34,3 +34,18 @@ def isAdult(age = 4):
         print("You are an adult")
 
 isAdult()
+
+#Keyword Argument function
+def doSomething(a = 6,b=7):
+    return a*b+a+b-(a*8)-(b*7)
+
+print(doSomething(b= 8,a = 99))
+
+#Variable argument in a function
+def add(*args): #args is not necessary
+    sum = 0
+    for i in args:
+        sum += i
+    print(sum)
+
+add(1,2,3,4)
