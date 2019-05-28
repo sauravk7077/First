@@ -49,3 +49,8 @@ def add(*args): #args is not necessary
     print(sum)
 
 add(1,2,3,4)
+
+#Unpacking arguements
+
+list = [1,25,24,724,8752]
+add(*list)
